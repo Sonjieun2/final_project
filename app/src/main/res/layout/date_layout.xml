@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dateCalllayout">
+
+    <!-- 캘린더에 사용되는 날짜 -->
+    <TextView
+        android:id="@+id/dateNum"
+        android:layout_width="45dp"
+        android:layout_height="17dp"
+        android:text="date"
+        android:textAppearance="@style/date"
+        android:clickable="true"/>
+    <Button
+        android:id="@+id/dateView"
+        android:layout_width="45dp"
+        android:layout_height="58dp"
+        android:background="@color/white"
+        android:backgroundTint="#C0D6C3"
+        android:text="Button" />
+</LinearLayout>

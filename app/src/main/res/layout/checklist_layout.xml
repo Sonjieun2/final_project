@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checklistLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <CheckBox
+        android:id="@+id/checklistItemText"
+        android:layout_width="290dp"
+        android:layout_height="47dp"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"/>
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete_btn"
+        android:backgroundTint="#00FFFFFF" />
+</LinearLayout>

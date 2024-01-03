@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">final_project</string>
+
+    <string name="october">10월</string>
+    <string name="november">11월</string>
+    <string name="december">12월</string>
+</resources>
